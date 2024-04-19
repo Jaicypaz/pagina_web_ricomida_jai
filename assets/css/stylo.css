@@ -1,0 +1,93 @@
+RICOMIDA
+
+  /* Para el body*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* barra de navegacion */
+.navbar-brand p {
+    font-size: 2rem; 
+    color: #ffffff;
+}
+
+/* El carrusel, me faltan ajustes */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Es para esconder el carrusel */
+@media (max-width: 576px) {
+    .carousel {
+        display: none;
+    }
+}
+
+/* receta-principal, ojo con el tamaño */
+.receta-principal h1 {
+    color: #373A3C;
+    font-size: 5 rem; 
+    margin-bottom: 1rem;
+}
+
+/* Seccion receta-informacion */
+.receta-informacion {
+    color: #373A3C;
+}
+
+/* Cards */
+#recetas_relacionadas h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card-title {
+    font-size: 1.25rem; 
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.separator {
+    border: none; /* Elimina la línea por defecto */
+    height: 2px; /* Alto de la linea */
+    background-color: #090909; 
+    margin: 20px 0; /* Espacio o margen arriba y abajo  */
+  }
+
+
+/* Sección de newsletter */
+.newsletter {
+    background-color: #dc3545; 
+    color: white;
+    padding: 80px 0;
+}
+
+.newsletter h3 {
+    font-size: 1.75rem;
+}
+
+.newsletter h4 {
+    font-size: 1.5rem;
+}
+
+/* Botón de la newsletter */
+.btn-outline-light {
+    border-color: white;
+    color: white;
+    
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: #dc3545;
+}
+
+/* Footer */
+footer {
+    background-color: #373A3C;
+    color: white;
+}
+
